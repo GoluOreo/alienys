@@ -1,0 +1,59 @@
+body {
+    background-size: cover;
+    background-position: center;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+}
+
+.header_div {
+    background-image: linear-gradient(to right, #820000, #722d00, #604100, #4e4f00, #3e581e, #285932, #105944, #005752, #004e60, #004270, #003378, #00196e);
+    color: lightcyan;
+    text-shadow: 5px 5px 10px violet;
+}
+
+.header_div p {
+    color: lightcoral;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.main_div button {
+    font-family: cursive;
+    margin-top: 30px;
+}
+
+         
+.btn-grad {
+    background-image: linear-gradient(to right, #d53369 0%, #cbad6d  51%, #d53369  100%);
+    margin: 10px;
+    padding: 10px 25px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    font-size: 22px;
+    letter-spacing: 5px;
+  }
+
+  .btn-grad:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .copy_right_footer {
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    text-align: right;
+    padding-right: 30px;
+    text-shadow: 5px 5px 2px silver;
+  }
